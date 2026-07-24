@@ -1,0 +1,10 @@
+name: Ground Truth P11-C
+on:
+  workflow_dispatch:
+permissions: read-all
+jobs:
+  fixture:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo P11-C
