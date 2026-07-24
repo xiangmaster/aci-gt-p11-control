@@ -1,0 +1,10 @@
+id: P11-C
+repository: aci-gt-p11-control
+visibility: public
+stage: P1
+rule: P1.1
+kind: control
+atomic_variable: "只有 workflow_dispatch"
+expected_status: NOT_APPLICABLE
+setup: AUTO_FILES
+configuration_state: COMPLETE
